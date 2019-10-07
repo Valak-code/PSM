@@ -1,0 +1,22 @@
+$secondary-color: #26B864;
+$dark-color: #161616;
+$danger-color: #F7B415;
+$white-title: #F1F9FF;
+$white-text: #E4E4E4;
+.nav-bar {
+    margin: 0 -15px;
+    background-color: $secondary-color;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    &-button1 {
+        color: $danger-color;
+        background: $dark-color;
+        border: $dark-color;
+    }
+    &-button2 {
+        border: 1.5px solid $dark-color;
+    }
+}

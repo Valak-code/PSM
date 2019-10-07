@@ -1,0 +1,15 @@
+$secondary-color: #26B864;
+$dark-color: #161616;
+$danger-color: #F7B415;
+$white-title: #F1F9FF;
+$white-text: #E4E4E4;
+.title-underline-news {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 97%;
+        height: 4px;
+        bottom: -4px;
+        background-color: $secondary-color;
+    }
+}

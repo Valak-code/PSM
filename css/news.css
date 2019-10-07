@@ -1,0 +1,10 @@
+.title-underline-news::before {
+  content: "";
+  position: absolute;
+  width: 97%;
+  height: 4px;
+  bottom: -4px;
+  background-color: #26B864;
+}
+
+/*# sourceMappingURL=news.css.map */

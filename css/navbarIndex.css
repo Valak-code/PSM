@@ -1,0 +1,192 @@
+.nav-bar {
+  background-color: #26B864;
+  margin-top: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+  z-index: 3;
+}
+.nav-bar-button1 {
+  color: #F7B415;
+  background: #161616;
+  border: #161616;
+}
+.nav-bar-button2 {
+  border: 1.5px solid #161616;
+}
+
+.background-video {
+  margin: -15px;
+  position: relative;
+  z-index: 1;
+  border-radius: 0px;
+}
+.background-video-image {
+  max-height: 100vh;
+  min-height: 45vh;
+}
+.background-video-content {
+  position: relative;
+  z-index: 2;
+  border: none;
+  margin-left: 5%;
+  margin-top: 5%;
+  max-width: 30%;
+}
+.background-video-content-typography-title {
+  color: #F1F9FF;
+}
+.background-video-content-typography-small {
+  color: #E4E4E4;
+}
+.background-video-button {
+  background: #26B864;
+  border: #26B864;
+}
+.background-video-play {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 5vw;
+  height: 5vw;
+  min-width: 40px;
+  min-height: 40px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.background-video-play button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-size: 1.5em;
+}
+.background-video-social-network {
+  position: absolute;
+  top: 90%;
+  right: 1%;
+}
+.background-video-social-network a {
+  font-size: 1.5em;
+  color: #E4E4E4;
+}
+
+@media (max-width: 599px) {
+  .background-video-content {
+    min-width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+  .background-video-content-typography-title {
+    color: #000;
+    text-align: center;
+  }
+  .background-video-content-typography-small {
+    color: #161616;
+    text-align: center;
+  }
+  .background-video-content button {
+    position: relative;
+    left: 50%;
+    top: -20px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .background-video-social-network {
+    top: 80%;
+  }
+}
+@media (min-width: 600px) and (max-width: 899px) {
+  .background-video-content {
+    min-width: 90%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+  .background-video-content-typography-title {
+    color: #000;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .background-video-content-typography-small {
+    color: #161616;
+    text-align: center;
+  }
+  .background-video-content button {
+    position: relative;
+    left: 50%;
+    top: -20px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .background-video-social-network {
+    top: 80%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1199px) {
+  .background-video-content {
+    min-width: 70%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+  .background-video-content-typography-title {
+    color: #000;
+    text-align: center;
+  }
+  .background-video-content-typography-small {
+    color: #161616;
+    text-align: center;
+  }
+  .background-video-content button {
+    position: relative;
+    left: 50%;
+    top: -20px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+}
+
+/*# sourceMappingURL=navbarIndex.css.map */

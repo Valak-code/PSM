@@ -1,0 +1,19 @@
+.nav-bar {
+  margin: 0 -15px;
+  background-color: #26B864;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.nav-bar-button1 {
+  color: #F7B415;
+  background: #161616;
+  border: #161616;
+}
+.nav-bar-button2 {
+  border: 1.5px solid #161616;
+}
+
+/*# sourceMappingURL=navbar.css.map */
